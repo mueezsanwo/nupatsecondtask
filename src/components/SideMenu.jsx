@@ -10,7 +10,7 @@ import Plus from '../assets/Plus.svg'
 const SideMenu = () => {
   return (
     <div className=" w-[272px] h-[1024px] px-[32px] py-[38px] bg-[#1D1042] justify-between ">
-        <div className=' w-[208px] h-[486px] mt-[38px] text-white'>
+        <div className=' w-[208px] h-[486px] text-white'>
           <div className=' flex w-[208px] h-[46px] rounded-lg px-[16px] py-[12px] bg-[#45269C]  gap-2  justify-center '>
           <img className='' src={Lightning} alt='/' />  
           <p className='text-[16px] leading-[19px] align-top text-left font-normal '>Welcome Keerthi</p>  
