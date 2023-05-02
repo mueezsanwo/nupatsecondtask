@@ -6,10 +6,12 @@ import Lightning from '../assets/Lightning.svg'
 import ParticipantView from '../assets/ParticipantView.svg'
 import PowerView from '../assets/PowerView.svg'
 import Plus2 from '../assets/Plus2.svg'
+import TopMobileView from './TopMobileView'
 
 const Top = () => {
   return (
-       <div className=' absolute left-[272px] w-[fill] top-0 h-[221px] bg-[#FFFFFF] drop-shadow-4xl '>
+      <div>
+       <div className=' ss:hidden m:hidden absolute left-[272px] w-[fill] top-0 h-[221px] bg-[#FFFFFF] drop-shadow-4xl '>
        <div className=' h-[67px] mt-[40px] flex justify-between'>
           <div className=' ml-[64px]'>
             <h1 className=' h-[46px] font-semibold text-[38px] leading-[46px] text-left align-top tracking-[-2%] text-[#000000]'>New Campaign Run </h1>
@@ -42,6 +44,10 @@ const Top = () => {
             <img src={Plus2} alt='/' className=' w-[18px] h-[18px]' />
          </div>
        </div>
+    </div>
+    <div className=''>
+      <TopMobileView />
+    </div>
     </div>
   )
 }
