@@ -9,7 +9,9 @@ import Plus2 from '../assets/Plus2.svg'
 
 const TopMobileView = () => {
   return (
-    <div className='hidden ss:block m:block'>
+    <div className='hidden ss:block m:block '>
+    <div className='flex justify-center  '>
+       <div> 
         <p className=' ml-2 mt-4 font-medium text-[22px] leading-[28px] text-[#B8B9BD] h-[22px]  text-left align-top'><span className=' ml-2'>A new campaign launch work for brand</span> new feature in May month.</p>
         <div className=' flex mt-10 ml-2'>
          <img src={ProfileStack} alt='/' />
@@ -34,6 +36,8 @@ const TopMobileView = () => {
             </div>
             <img src={Plus2} alt='/' className=' w-[20px] h-[20px] mt-2' />
          </div>
+       </div>
+       </div>
        </div>
     
   )

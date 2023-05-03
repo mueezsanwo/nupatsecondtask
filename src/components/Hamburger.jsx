@@ -14,7 +14,7 @@ const Hamburger = () => {
   return (
     <div className=''>
         <div className=' '>
-          <div className=" w-[full] h-[full] px-[32px] py-[10px] bg-[#1D1042] flex justify-center  ">
+          <div className=" w-[full] m:w-[50%] h-[full] px-[32px] py-[10px] bg-[#1D1042] flex justify-center  ">
         <div className=' w-[208px] h-[586px] text-white'>
           <div className=' flex w-[208px] h-[46px] rounded-lg px-[16px] py-[12px] bg-[#45269C]  gap-2  justify-center '>
           <img className='' src={Lightning} alt='/' />  
